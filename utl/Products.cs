@@ -3,13 +3,13 @@ using System.Globalization;
 
 namespace dot.utl
 {
-    public class Produtos
+    public class Products
     {
         public string Nome;
         public double Preco;
         public int Quantidade;
 
-        public Produtos()
+        public Products()
         {
             this.EnterAddDellProd();
         }
