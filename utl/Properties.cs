@@ -20,12 +20,7 @@ namespace dot.utl
         public double Height
         {
             get { return _height; }
-            set {
-                if (value != null)
-                {
-                    _height = value;
-                }
-            }
+            set { _height = value; }
         }
         
         public override string ToString()
