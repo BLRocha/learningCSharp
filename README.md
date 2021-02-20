@@ -42,3 +42,12 @@ public class Construct
 
     Console.WriteLine(c);
 ```
+
+## Nullable
+> É um cursor de C# para que dados de tipos valor(structs) possam
+receber o valor null
+
+> Uso Comum:
+>> - Campos de bamco de dados que podem ser valorado como null
+>> - Dados e parâmetros opcionais.
+
