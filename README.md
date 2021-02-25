@@ -73,3 +73,17 @@ receber o valor null
   - Palavra `is`
   - Uso comum: métodos que recebem parâmetros genéricos (Ex: Eqauls)
   
+- Clssses e Métodos selados
+  - Palavra chave: `sealed`
+  - **Classe** evita que a classe seja herdada
+    - Nota: ainda é possível extender a funcionalidade de uma classe selada usando `extension methods`
+    ```c#
+    namespace NameSpcStd {
+        sealed class ClassName {
+        
+        } 
+    }
+    ```
+  - **Métodos: **evita que um Método sobreposto possa ser sobresposto novamente
+    - Só pode ser aplicado a métodos sobrepostos
+  
