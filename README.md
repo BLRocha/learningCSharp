@@ -63,3 +63,13 @@ receber o valor null
     - `:` (estende)
     - `base` (referência para a superclasse)
     
+- Upcasting
+  - Casting da subclass para superclass
+  - Uso comum: polimorfismo
+  
+- Downcasting
+  - Casting da superclass para subclass
+  - Palavra `as`
+  - Palavra `is`
+  - Uso comum: métodos que recebem parâmetros genéricos (Ex: Eqauls)
+  
