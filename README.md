@@ -51,3 +51,15 @@ receber o valor null
 >> - Campos de bamco de dados que podem ser valorado como null
 >> - Dados e parâmetros opcionais.
 
+## Herança em C#
+
+1. **Definições importantes**
+
+- Vantagens:
+    - Reuso
+    - Polimorfismo
+    
+- Sintaxe
+    - `:` (estende)
+    - `base` (referência para a superclasse)
+    
