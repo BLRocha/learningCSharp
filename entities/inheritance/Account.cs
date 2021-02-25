@@ -16,7 +16,7 @@ namespace dot.entities.inheritance
             Fee = 5.00;
         }
 
-        public void Withdraw(double amount)
+        public virtual void Withdraw(double amount)
         {
             if (Balance >= amount)
             {
