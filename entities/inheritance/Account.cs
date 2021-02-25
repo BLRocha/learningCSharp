@@ -7,18 +7,20 @@ namespace dot.entities.inheritance
         public uint  Number { get; protected set; }
         public string Holder { get; protected set; }
         public double Balance { get; protected set; }
-        
+        public double Fee { get; protected set; }
         public Account(uint number, string holder, double balance)
         {
             Number = number;
             Holder = holder;
             Balance = balance;
+            Fee = 5.00;
         }
 
         public void Withdraw(double amount)
         {
             if (Balance >= amount)
             {
+                Balance -= Fee;
                 Balance -= amount;
             }
         }
