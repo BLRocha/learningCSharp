@@ -84,6 +84,6 @@ receber o valor null
         } 
     }
     ```
-  - **Métodos: **evita que um Método sobreposto possa ser sobresposto novamente
+  - **Métodos:** evita que um Método sobreposto possa ser sobresposto novamente
     - Só pode ser aplicado a métodos sobrepostos
   
