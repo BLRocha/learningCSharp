@@ -71,7 +71,7 @@ receber o valor null
   - Casting da superclass para subclass
   - Palavra `as`
   - Palavra `is`
-  - Uso comum: métodos que recebem parâmetros genéricos (Ex: Eqauls)
+  - Uso comum: métodos que recebem parâmetros genéricos (Ex: Equals)
   
 - Clssses e Métodos selados
   - Palavra chave: `sealed`
