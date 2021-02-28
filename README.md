@@ -50,6 +50,18 @@ receber o valor null
 > Uso Comum:
 >> - Campos de bamco de dados que podem ser valorado como null
 >> - Dados e parâmetros opcionais.
+```c#
+ {
+    // syntax
+    Nullable<T> VarNameNullable;
+    // ou
+    TYPE? VarNameNullable
+ }
+```
+- Métodos
+  - GetValueOrDefault
+  - HasValue
+  - Value (lança uma exceção caso não haja valor)
 
 ## Herança em C#
 
