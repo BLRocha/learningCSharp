@@ -98,4 +98,12 @@ receber o valor null
     ```
   - **Métodos:** evita que um Método sobreposto possa ser sobresposto novamente
     - Só pode ser aplicado a métodos sobrepostos
+
+## Tratamento de Exceções
+
+- No .NET, uma exceção é um objeto herdado da classe System.Exception
+- Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução,
+  até que seja capturada (tratada) ou o programa seja encerrado.
   
+![stack](https://1.bp.blogspot.com/-ojibsCmMTRI/XoGjqdxn0VI/AAAAAAAACRs/1yfM2vD_mdMVDRI_ndmXNuUgL6_N-P4jACLcBGAsYHQ/s1600/ExceptionHier.png)
+
