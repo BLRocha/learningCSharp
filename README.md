@@ -118,4 +118,13 @@ ajuda na criação de objetos FileStream.
 - FileInfo
   - instance members
   -  [Libdoc FileInfo](https://msdn.microsoft.com/en-us/library/system.io.fileinfo(v=vs.110).aspx)
+- IOException
+  - Derivações
+    - System.IO.DirectoryNotFoundException
+    - System.IO.DriveNotFoundException
+    - System.IO.EndOfStreamException
+    - System.IO.FileLoadException
+    - System.IO.FileNotFoundException
+    - System.IO.PathTooLongException
+    - System.IO.PipeException
   
