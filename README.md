@@ -107,3 +107,15 @@ receber o valor null
   
 ![stack](https://1.bp.blogspot.com/-ojibsCmMTRI/XoGjqdxn0VI/AAAAAAAACRs/1yfM2vD_mdMVDRI_ndmXNuUgL6_N-P4jACLcBGAsYHQ/s1600/ExceptionHier.png)
 
+## File, FileInfo
+
+- Namespace System.IO
+- Realiza operações com arquivos (create, copy, delete, move , open...) e
+ajuda na criação de objetos FileStream.
+- File
+  - static members (simples, mas realiza verificação de segurança para cada operação)
+  - [Libdoc File](https://msdn.microsoft.com/en-us/library/system.io.file(v=vs.110).aspx)
+- FileInfo
+  - instance members
+  -  [Libdoc FileInfo](https://msdn.microsoft.com/en-us/library/system.io.fileinfo(v=vs.110).aspx)
+  
