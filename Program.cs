@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Globalization;
-using dot.utl;
 
 namespace dot
 {
@@ -8,7 +6,7 @@ namespace dot
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }
