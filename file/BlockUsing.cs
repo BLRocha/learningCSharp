@@ -22,5 +22,18 @@ namespace dot.file
                 }
             }
         }
+
+        public void UsingOpenText()
+        {
+            using (StreamReader sr = File.OpenText(_path))
+            {
+                int count = 0;
+                while (!sr.EndOfStream)
+                {
+                    Console.WriteLine($"Line number: {count}, Content: {sr.ReadLine()}");
+                    count++;
+                }
+            }
+        }
     }
 }
