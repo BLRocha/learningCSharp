@@ -9,8 +9,4 @@
     <Compile Remove="AreaTriangulo.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="chess" />
-  </ItemGroup>
-
 </Project>
