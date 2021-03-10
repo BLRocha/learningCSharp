@@ -128,3 +128,21 @@ ajuda na criação de objetos FileStream.
     - System.IO.PathTooLongException
     - System.IO.PipeException
   
+## Generics
+
+- Genererics permite que **classes**, **Interfaces**, e **métodos** possam ser
+parametrizados por tipos.
+  
+- Benefícios
+  - Reuso
+  - Type safety
+  - Performance
+- Uso comum: 
+    - coleções
+    ```c#
+    // Ex:
+    List<string> list = new List<string>();
+    list.Add("Name qq");
+    string name = list[0];
+    ```
+  
